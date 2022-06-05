@@ -112,7 +112,7 @@
 	</head>
 	<body class="text-center">
 		<main class="form-signin w-100 m-auto">
-			<form>
+			<form action="/" method="post">
 				<img
 					class="mb-4"
 					src="images/newsletter.png"
@@ -124,6 +124,7 @@
 				<div class="form-floating">
 					<input
 						type="text"
+						name="fName"
 						class="form-control top"
 						placeholder="First Name"
 						required
@@ -134,6 +135,7 @@
 				<div class="form-floating">
 					<input
 						type="text"
+						name="lName"
 						class="form-control middle"
 						placeholder="Last Name"
 						required
@@ -145,6 +147,7 @@
 				<div class="form-floating">
 					<input
 						type="email"
+						name="email"
 						class="form-control bottom"
 						placeholder="name@example.com"
 						required
